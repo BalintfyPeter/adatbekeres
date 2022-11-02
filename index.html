@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adatbekérés</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <label for="name">Megrendelő neve:</label>
+            <input type="text" name="name" id="name" onfocus="hatterszinOn(this)" onblur="hatterszinOff(this)">
+            <br>
+
+            <label for="cim">Megrendelő címe:</label>
+            <input type="text" name="cim" id="address" onfocus="hatterszinOn(this)" onblur="hatterszinOff(this)">
+            <br>
+
+            <label for="phone">Megrendelő telefonszáma:</label>
+            <input type="tel" name="number" id="number" value="+36" onfocus="hatterszinOn(this)"
+                onblur="hatterszinOff(this)">
+            <br>
+
+            <input type="button" value="Elküld" id="btn" onclick="beiras()">
+
+        </fieldset>
+    </form>
+
+        <div id="output">
+            <h1>Visszaigazolás!</h1>
+            <div id="nameOut">Név: ?</div>
+            <div id="addressOut">Cím: ?</div>
+            <div id="numberOut">Telefon: ?</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body{
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+
+fieldset{
+    text-align: center;
+    background-color: lightsteelblue;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-bottom: 1cm;
+}
+
+#btn{
+    border: 2px solid black;
+    font-size: 1cm;
+    padding: 0.5cm 2cm 0.5cm 2cm;
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 40px;
+    
+}
+
+#output{
+    text-align: center;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 2cm;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+h1 ~ div{
+    font-size: 1cm;
+}
